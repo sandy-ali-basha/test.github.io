@@ -1,0 +1,134 @@
+/*----------------------------//llooaaddeerr//---------------------------*/
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+	top: 0;
+  left: 0;
+  background-color: #ffffff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.every-thing{
+    margin: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 200px;
+}
+
+.input:focus-within{
+border: 2px solid #cc92c2ff;
+}
+.input{
+	background-color: #0ff0;
+	margin: 10px;
+	padding: 10px;
+	border: solid #0ff0 1px;
+	border-bottom: solid 2px #fff;
+	width: 400px;
+	color: white;
+}
+
+.input-message{
+	height: 100px;
+}
+
+.input-list{
+	list-style-type: none;
+	float: right;
+	margin-right: 100px;
+	font-size: 15px;
+}
+::placeholder {
+	color: aliceblue;
+	font-size: 15px;
+}
+.ul-style{
+	list-style-type: none;
+}
+
+.contact-info{
+	float: left;
+	color:#fff;
+	font-size: 20px;
+	margin-left: 100px;
+	list-style: none;
+}
+.contact-text{
+	margin: 10px;
+}
+.header{
+	font-size: 50px;
+	color: #fff;
+	margin: 5px;
+	padding: 5px;
+}
+.submit:hover{
+background-color: #03030378;
+    box-shadow: 0 0 7px 8px #00000026;
+}
+.submit:active{
+	background-color: #944bbbff;
+}
+.submit{
+border-radius: 5px;
+    background-color: #ffffff1c;
+	padding: 10px;
+	width: 135px;
+	color: white;
+	border: none;
+	font-size: 20px;
+	font-family: 'Tajawal', sans-serif;
+	transition: all 0.5s;
+	border: 1px solid white;
+	margin-bottom: 47px;
+}
+body{
+	background:black url(images/contact-us-background.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Tajawal', sans-serif;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+/*-----------
+-----------------------------------------*/
+.face-icon{
+	width: 40px;
+	transition: all 0.5s;
+	padding: 5px;
+	
+}
+.face-icon:hover{
+	
+}
+
+
+.nav-ul{
+    font-size: 23px;
+}
+.nav-li:hover{
+	  background-color: #56565642;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px #05050573;
+		color: #531cb3ff;
+}
+.nav-li{
+    display: inline-block;
+    transition: all 0.5s;
+		color: white;
+	    padding: 10px;
+}
+a{
+	text-decoration: none;
+		color: white;
+}
+.copy_right{
+     background-color: #2f2f2f;
+    width: 100%;
+    color: #fff;
+    /* height: 13px; */
+    padding: 0px;
+	clear: both;
+	height: 50px;
+}
